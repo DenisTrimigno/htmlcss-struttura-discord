@@ -2,4 +2,54 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+
+/* HEADER STYLE */
+
+.section-1 {
+    width: 100%;
+    height: 80px;
+    background-color: lightblue;
+
+}
+
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0 ;
+}
+
+
+.row {
+    display: flex;
+    width: 70%;
+    height: 50px;
+    background-color: rgb(232, 170, 13);
+}
+
+.col-20 {
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    border: 2px dashed black;
+
+}
+
+.col-60 {
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 2px dashed black;
+
+}
+
+/* END HEADER STYLE */
+
+
